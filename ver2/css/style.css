@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.new_box .txt {
+	font-size: 25px;
+}
+@media screen and (max-width: 736px) {
+.new_box .txt {
+	font-size: 16px;
+}
+}
+/*
+     FILE ARCHIVED ON 12:40:45 May 12, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:17:15 Aug 29, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.408
+  exclusion.robots: 0.045
+  exclusion.robots.policy: 0.035
+  esindex: 0.007
+  cdx.remote: 6.262
+  LoadShardBlock: 40.302 (3)
+  PetaboxLoader3.datanode: 175.674 (4)
+  load_resource: 383.634
+  PetaboxLoader3.resolve: 76.472
+*/

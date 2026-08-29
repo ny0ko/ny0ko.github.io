@@ -8,13 +8,14 @@
 ＊ Set Base Style
 ===========================================================*/
 
-@import url(../../css/style.css?miitomo_20160317); /* initial setting */
-@import url(../../css/smart.css?miitomo_20160317) screen and (max-width: 736px);
-@import url(language.css?miitomo_20160317);
+/* initial setting */
+@import url(style.css?miitomo_20161025);
+@import url(smart.css?miitomo_20161025) screen and (max-width: 736px);
+@import url(language.css?miitomo_20161025);
 
 /*
-     FILE ARCHIVED ON 13:37:49 Aug 11, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:47:11 Aug 29, 2026.
+     FILE ARCHIVED ON 00:45:34 Jul 25, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:22:38 Aug 29, 2026.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -22,13 +23,13 @@
 */
 /*
 playback timings (ms):
-  captures_list: 0.386
-  exclusion.robots: 0.041
-  exclusion.robots.policy: 0.033
+  captures_list: 0.333
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.025
   esindex: 0.006
-  cdx.remote: 6.117
-  LoadShardBlock: 54.929 (3)
-  PetaboxLoader3.resolve: 64.945 (4)
-  PetaboxLoader3.datanode: 25.804 (4)
-  load_resource: 37.988
+  cdx.remote: 7.767
+  LoadShardBlock: 53.033 (3)
+  PetaboxLoader3.datanode: 1054.286 (5)
+  load_resource: 1333.415 (2)
+  PetaboxLoader3.resolve: 284.492 (2)
 */
