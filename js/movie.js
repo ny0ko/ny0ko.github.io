@@ -10,7 +10,7 @@ let opener = _____WB$wombat$assign$function_____("opener");
 
 var ytplayer;
 var tag = document.createElement('script');
-tag.src = "https://web.archive.org/web/20170331142140/https://www.youtube.com/iframe_api";
+tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
