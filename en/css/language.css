@@ -1,0 +1,424 @@
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+@keyframes opa {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30%{
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes opa {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30%{
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.lead .lead_inner #v2_bn{
+  background:url(../images/v2_bn.png) 0 0 no-repeat;
+}
+
+#smartphone #sp {
+  background: url(../images/v2_sp.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp div {
+  background: url(../images/v2_sp_inner.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp_hover,#smartphone .sp_hover {
+  background: url(../images/v2_sp_movie_hover.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+#smartphone #sp_movie,#smartphone .sp_movie {
+  background: url(../images/v2_sp_movie.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.step1 .step_inner .miitomo_sp .miitomo_sp_01::after{
+  background: url(../images/v2_sp3.png) 0 0 no-repeat;
+  background-size: 248px 439px;
+}
+
+.step2 .step_inner .miitomo_sp .miitomo_sp_02::after{
+  background: url(../images/v2_sp4.png) 0 0 no-repeat;
+  background-size: 248px 439px;
+}
+
+.step2 .step_inner .miitomo_sp .miitomo_sp_02_under::after{
+  background: url(../images/v2_under.png) 0 0 no-repeat;
+  background-size: 248px 439px;
+
+  -webkit-animation: opa 7.5s infinite 2s;
+  animation: opa 7.5s infinite 2s;
+
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+
+}
+
+.step3 .step_inner .miitomo_sp .miitomo_sp_03::after{
+  background: url(../images/v2_sp5.png) 0 0 no-repeat;
+  background-size: 248px 439px;
+}
+.step4 .step_inner .miitomo_sp .miitomo_sp_06::after{
+  background: url(../images/v2_sp8.png) 0 0 no-repeat;
+  background-size: 248px 439px;
+}
+.step5 .step_inner .miitomo_sp .miitomo_sp_04::after{
+  background: url(../images/v2_sp6.png) 0 0 no-repeat;
+  background-size: 248px 439px;
+}
+.step6 .step_inner .miitomo_sp .miitomo_sp_05::after{
+  background: url(../images/v2_sp7.png) 0 0 no-repeat;
+  background-size: 248px 439px;
+}
+
+#smartphone #sp_1_1 {
+  background: url(../images/sp2_1.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp_1_2 {
+  background: url(../images/sp2_2.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp_1_3 {
+  background: url(../images/sp2_3.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+#smartphone #sp_2 {
+  background: url(../images/v2_sp3.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp_3 {
+  background: url(../images/v2_sp4.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp_4 {
+  background: url(../images/v2_sp5.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp_5 {
+  background: url(../images/v2_sp6.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #sp_6 {
+  background: url(../images/v2_sp7.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+#smartphone #release_schedule {
+  top: 100px;
+  font-size: 16px;
+  width: 150px;
+  height: 125px;
+  padding: 54px 20px 0;
+  word-break: keep-all;
+}
+
+#smartphone #mov_01{
+  font-size:11px;
+  line-height: 10px;
+  padding:7px 15px 17px;
+
+}
+#smartphone #mov_02{
+  font-size:11px;
+  line-height: 10px;
+
+}
+.step2 .step_inner .fuki, .step3 .step_inner .fuki, .step4 .step_inner .fuki, .step5 .step_inner .fuki, .step6 .step_inner .fuki {
+  font-size: 13px;
+}
+
+.step1, .step2, .step3, .step4, .step5, .step6{
+  min-height:740px;
+}
+.step5{
+  min-height:800px;
+}
+
+.step6{
+  height: auto !important;
+  max-height:none;
+}
+
+@media screen and (max-width: 736px) {
+
+    #defect,
+    #notice{
+      margin: -31px 0px 18px 0px;
+    }
+
+.step1, .step2, .step3, .step4, .step5, .step6{
+  min-height:100vh;
+}
+
+  .lead .lead_inner #v2_bn{
+    background:url(../images/v2_bn.png) 0 0 no-repeat;
+    background-size:302px 152px;
+  }
+
+  #mainvisual #tweet_box #mov_modal a{
+    height: 41px;
+    padding:7px 110px 5px 78px;
+  }
+
+  #smartphone #mov_01{
+    top:160px;
+  }
+  #smartphone #mov_02{
+    top:205px;
+  }
+
+  #smartphone #release_bubble{
+    top:155px;
+    right:25%;
+  }
+  #smartphone #release_schedule {
+    top: 140px;
+    left: auto;
+    right: 19%;
+    font-size: 13px;
+    width: 112px;
+    height: 92px;
+    padding: 39px 0 0;
+    word-break: keep-all;
+  }
+  #smartphone #release_schedule.end {
+    margin: 0 0 0 5px;
+  }
+
+  #smartphone #sp {
+    top: 10px;
+  }
+
+  #smartphone #sp_hover, #smartphone #sp_movie, #smartphone #sp_1_m2, #smartphone #sp_1, #smartphone #sp_1_1, #smartphone #sp_1_2, #smartphone #sp_1_3, #smartphone #sp_2, #smartphone #sp_3, #smartphone #sp_4, #smartphone #sp_5, #smartphone #sp_6 {
+    top: 36px;
+  }
+
+  #smartphone.fix #sp, #smartphone.fix #sp_1, #smartphone.fix #sp_1_1, #smartphone.fix #sp_1_2, #smartphone.fix #sp_1_3, #smartphone.fix #sp_2, #smartphone.fix #sp_3, #smartphone.fix #sp_4, #smartphone.fix #sp_5, #smartphone.fix #sp_6, #smartphone.fix #sp_hover{
+    bottom:-30px;
+  }
+
+  .step2 .step_inner .fuki, .step3 .step_inner .fuki, .step4 .step_inner .fuki, .step5 .step_inner .fuki, .step6 .step_inner .fuki {
+    font-size: 10px;
+  }
+
+  #prior .btn_inner{
+    margin:1px auto 0;
+  }
+
+  #prior .btn_inner .btn {
+    width: 265px;
+  }
+
+  #prior .talk_bubble em{
+    line-height: 13px;
+  }
+
+  #prior .talk_bubble {
+    background:url(../../images/miitomo_bubble.png) 0 4px  no-repeat;
+    background-size: 100% 234px;
+    height:244px;
+    padding: 0 10px 0 18px;
+  }
+  #prior .talk_bubble img{
+    margin:-16px 4px 0 -14px;
+    width:48px;
+  }
+
+  #prior .talk_bubble strong {
+    margin-bottom: 1px;
+  }
+
+  #prior .talk_bubble h2 {
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+    #defect,
+    #notice{
+      margin: -42px 0px 18px 0px;
+    }
+
+  #mainvisual #catch_text{
+    margin:0px auto 5px;
+    padding-top:42px;
+  }
+  .lead{
+    width:93%;
+  }
+  .lead .lead_inner{
+    font-size:12px;
+    line-height:14px;
+  }
+  .btn a{
+    line-height: 22px;
+    padding:3px 15px;
+  }
+  #prior .btn_inner .btn{
+    width:225px;
+  }
+  #prior .btn_inner .btn a{
+    min-width:180px;
+  }
+  .corresponding{
+    margin:4px auto 0;
+  }
+  #smartphone #release_bubble{
+    top:130px;
+  }
+  #smartphone #release_schedule{
+    top:120px;
+  }
+
+  #smartphone .sp_hover, #smartphone .sp_movie{
+    top:0;
+  }
+
+  #possible{
+    top:10px;
+  }
+  #possible h2{
+    font-size:16px;
+  }
+
+  .step2 .step_inner .fuki em strong,.step3 .step_inner .fuki em strong, .step4 .step_inner .fuki em strong, .step5 .step_inner .fuki em strong, .step6 .step_inner .fuki em strong{
+    font-size:14px;
+  }
+
+  #smartphone.fix #sp, #smartphone.fix #sp_1, #smartphone.fix #sp_1_1, #smartphone.fix #sp_1_2, #smartphone.fix #sp_1_3, #smartphone.fix #sp_2, #smartphone.fix #sp_3, #smartphone.fix #sp_4, #smartphone.fix #sp_5, #smartphone.fix #sp_6, #smartphone.fix #sp_hover, #smartphone.fix #sp_movie{
+    bottom:-28px;
+    height:330px;
+    width:187px;
+  }
+
+  .font_28{
+    font-size:16px !important;
+  }
+  .font_24{
+    font-size:12px !important;
+  }
+  .font_22{
+    font-size:11px !important;
+  }
+  .font_17{
+    font-size:9px !important;
+  }
+
+  .btn a{
+    margin:9px auto 0;
+  }
+
+  #prior .btn_inner{
+    margin: 3px auto 0;
+    height:70px;
+  }
+
+  #prior .talk_bubble strong{
+    font-size:14px;
+  }
+
+  #prior .talk_bubble h2{
+    font-size:12px;
+  }
+
+  #prior .talk_bubble {
+    background:url(../../images/miitomo_bubble.png) 0 10px  no-repeat;
+    background-size: 100% 240px;
+    height:254px;
+    padding: 0 10px 0 18px;
+  }
+
+  #footer #esrb a:first-child{
+    position: absolute;
+    margin:13px auto 1px;
+    left:13px;
+  }
+
+}
+
+
+@media screen and (min-height: 625px) and (min-width: 376px) and (max-width: 736px) {
+
+  #smartphone #mov_01{
+    top:220px;
+  }
+  #smartphone #mov_02{
+    top:265px;
+  }
+
+  #smartphone #release_bubble{
+    top:185px;
+  }
+
+  #smartphone #release_schedule{
+    top:185px;
+  }
+  #smartphone #sp,.sp_photo, #smartphone #sp_hover,#smartphone #sp_movie, #smartphone #sp_1_m2, #smartphone #sp_1_1, #smartphone #sp_1_2, #smartphone #sp_1_3, #smartphone #sp_2, #smartphone #sp_3, #smartphone #sp_4, #smartphone #sp_5, #smartphone #sp_6{
+    top:10px;
+  }
+  #smartphone #sp_1{
+    top:36px;
+  }
+
+  #smartphone .sp_hover,#smartphone .sp_movie{
+    top:0;
+    height:230px;
+  }
+
+  .mii_007{
+    bottom:auto;
+  }
+
+}
+/*
+     FILE ARCHIVED ON 04:20:00 Aug 17, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:47:45 Aug 29, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.396
+  exclusion.robots: 0.044
+  exclusion.robots.policy: 0.036
+  esindex: 0.006
+  cdx.remote: 13.944
+  LoadShardBlock: 58.073 (3)
+  PetaboxLoader3.datanode: 101.992 (4)
+  load_resource: 55.018
+*/
