@@ -13,7 +13,7 @@ function AndroidSversion(){if(ua.indexOf("Android")>0){var t=parseFloat(ua.slice
 
 /*
      FILE ARCHIVED ON 13:37:42 Aug 11, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:47:28 Aug 29, 2026.
+     INTERNET ARCHIVE ON 13:22:22 Aug 29, 2026.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -21,12 +21,13 @@ function AndroidSversion(){if(ua.indexOf("Android")>0){var t=parseFloat(ua.slice
 */
 /*
 playback timings (ms):
-  captures_list: 0.376
+  captures_list: 0.387
   exclusion.robots: 0.04
-  exclusion.robots.policy: 0.034
-  esindex: 0.007
-  cdx.remote: 5.905
-  LoadShardBlock: 129.202 (3)
-  PetaboxLoader3.datanode: 276.712 (4)
-  load_resource: 244.462
+  exclusion.robots.policy: 0.033
+  esindex: 0.006
+  cdx.remote: 13.668
+  LoadShardBlock: 63.713 (3)
+  PetaboxLoader3.datanode: 67.028 (4)
+  PetaboxLoader3.resolve: 54.856 (2)
+  load_resource: 65.815
 */
